@@ -25,3 +25,9 @@ def szinten(self):
             return "Közepes"
         else:
             return "Gyenge"
+
+diak1 = Diak("Emese", 14, [4,3,5,5,5,5,5])
+
+diak1.bemutatkozas()
+print("Átlag", diak1.atlag(),"\n")
+print("Szint", diak1.szinten(),"\n")
