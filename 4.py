@@ -12,3 +12,6 @@ for i in mondat:
             mgh[i] += 1
         else:
             mgh[i] = 1
+
+for i,db in mgh.items():
+    print(f"A mondatban {i} magánhangzó {db} alkalommal szerepel.")
