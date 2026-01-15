@@ -13,3 +13,6 @@ def atlag(self):
         if len(self.jegyek) == 0:
             return 0
         return sum(self.jegyek) / len(self.jegyek)
+
+def bemutatkozas(self):
+        print(f"Szia, {self.nev} vagyok, {self.eletkor} éves.")
