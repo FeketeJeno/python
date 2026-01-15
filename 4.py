@@ -5,3 +5,10 @@ mondat = input("Írj be egy mondatot: ")
 mgh = {}
 mh = "aáeéiíoóöőuúüű"
 mghDarab = 0
+for i in mondat:
+    if i in mh:
+        mghDarab += 1
+        if i in mgh:
+            mgh[i] += 1
+        else:
+            mgh[i] = 1
