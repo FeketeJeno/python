@@ -8,3 +8,8 @@ class Diak:
         self.nev = nev
         self.eletkor = eletkor
         self.jegyek = jegyek
+
+def atlag(self):
+        if len(self.jegyek) == 0:
+            return 0
+        return sum(self.jegyek) / len(self.jegyek)
