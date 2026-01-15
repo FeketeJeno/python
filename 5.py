@@ -16,3 +16,12 @@ def atlag(self):
 
 def bemutatkozas(self):
         print(f"Szia, {self.nev} vagyok, {self.eletkor} éves.")
+
+def szinten(self):
+        atlag = self.atlag()
+        if atlag>=4:
+            return "Jó"
+        elif atlag>=3:
+            return "Közepes"
+        else:
+            return "Gyenge"
